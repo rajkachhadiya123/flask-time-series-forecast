@@ -23,20 +23,20 @@ This project is a web-based time series forecasting app built with **Flask** tha
 - Flask (Backend)
 - HTML + CSS (Frontend)
 - Google Colab (Model training)
+  
+#  Clone the repository
+git clone https://github.com/rajkachhadiya123/flask-time-series-forecast.git
+cd flask-time-series-forecast
 
-### 🔹 1. Clone this repo
-```bash
-git clone https://github.com/rajkachhadiya123/flask-time-series-forecast-app.git
-cd flask-forecast-app
 
-### 2. Install dependencies
+# Install dependencies
+pip install -r requirements.txt || pip install flask pandas numpy scikit-learn statsmodels
 
-pip install -r requirements.txt
-
-### 3. Run the flask App
-
+# Run the Flask application
 python app.py
 
-### 4. Open in Browser
+# Once running, open your browser and visit:
 
-http://127.0.0.1:5000/
+
+# http://127.0.0.1:5000/
+
